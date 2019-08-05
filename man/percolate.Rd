@@ -2,7 +2,7 @@
 % Please edit documentation in R/percolate.R
 \name{percolate}
 \alias{percolate}
-\title{useMethod for percolate}
+\title{UseMethod for percolate; indicates that for a "board" class object, percolate is the method used for percolate.board}
 \usage{
 percolate(x)
 }
@@ -13,5 +13,5 @@ percolate(x)
 a list of the result_board and the result i.e. whether the "board" percolates (TRUE) or not (FALSE)
 }
 \description{
-useMethod for percolate
+UseMethod for percolate; indicates that for a "board" class object, percolate is the method used for percolate.board
 }
