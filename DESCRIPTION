@@ -1,19 +1,19 @@
 Package: percolate
-Title: What the Package Does (One Line, Title Case)
+Title: An Implementation of the Percolation Mechanism
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "First",
-           family = "Last",
+    person(given = "Aditya",
+           family = "Gandhi",
            role = c("aut", "cre"),
-           email = "first.last@example.com",
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: What license it uses
+           email = "adityadg@andrew.cmu.edu")
+Description: An implementation of the percolation mechanism in R. The percolate package uses base R, dplyr, tidyr, ggplot2, assetthat, and testthat. The "percolate" package generates "board" matrices, converts "board" matrices to boards, plots these "boards", and determines whether "boards" percolate or not, as well as graphically represents the "boards" before and after percolation. In achieving its purpose, the "percolate" package uses helper utility functions and modular functions. The "percolate" package also contains test cases against which the functions contained within the "percolate" package have been tested. For more information regarding the description, usage, arguments, value, and examples of function contained within the "percolate" package, please check the documentation.
+License: None
 Encoding: UTF-8
 LazyData: true
 Suggests: 
     testthat (>= 2.1.0)
 Imports: 
     assertthat,
-    ggplot2
+    ggplot2,
+    tidyr
 RoxygenNote: 6.1.1
