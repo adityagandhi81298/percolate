@@ -77,8 +77,6 @@ percolate.board <- function(x) {
 #' @return a list of the result_board and the result i.e. whether the "board" percolates (TRUE) or not (FALSE)
 #' @export
 #'
-#' @examples percolate(board_example_list[[1]]), percolate(board_example_list[[2]]), percolate(board_example_list[[3]])
-
 percolate <- function(x) {
   UseMethod("percolate", x)
 }
