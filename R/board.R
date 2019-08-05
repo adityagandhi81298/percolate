@@ -37,6 +37,9 @@ board <- function(mat = NULL, n = 5, p = 0.25) {
 #' @return a tile plot containing squares that represent the elements of "board" (superclass matrix); black for 0s, white for 1s, and light blue for 2s
 #' @export
 #'
+#' @import ggplot2
+#' @import tidyr
+#'
 #' @examples plot(board_example, grid = TRUE), plot(board_example2, grid = TRUE), plot(board_example3, grid = TRUE), plot(board_example4, grid = TRUE)
 
 plot.board <- function(x){
@@ -64,6 +67,9 @@ plot.board <- function(x){
 #'
 #' @return a tile plot containing squares that represent the elements of "board" (superclass matrix); black for 0s, white for 1s, and light blue for 2s; if grid = TRUE, adds dashed gray lines to geom_tile
 #' @export
+#'
+#' @import ggplot2
+#' @import tidyr
 #'
 #' @examples plot(board_example, grid = TRUE), plot(board_example2, grid = TRUE), plot(board_example3, grid = TRUE), plot(board_example4, grid = TRUE)
 
