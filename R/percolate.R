@@ -70,7 +70,7 @@ percolate.board <- function(x) {
   return(list(result_board = x, result = any(x[nrow(x), ] == 2)))
 }
 
-#' useMethod for percolate
+#' UseMethod for percolate; indicates that for a "board" class object, percolate is the method used for percolate.board
 #'
 #' @param x a "board" object (superclass - matrix, subclass - board)
 #'
