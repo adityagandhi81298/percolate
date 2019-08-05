@@ -9,7 +9,7 @@
 #' @return 'board' sub - class (matrix primary class) object; if matrix input paramter is incorrect, return an error
 #' @export
 #'
-#' @examples board(generate_board_mat())
+#' @examples board(mat = NULL, n = 5, p = 0.25), board(generate_board_mat())
 
 board <- function(mat = NULL, n = 5, p = 0.25) {
   if (is.null(mat) == TRUE) {
@@ -40,7 +40,7 @@ board <- function(mat = NULL, n = 5, p = 0.25) {
 #' @import ggplot2
 #' @import tidyr
 #'
-#' @examples plot(board_example, grid = TRUE), plot(board_example2, grid = TRUE), plot(board_example3, grid = TRUE), plot(board_example4, grid = TRUE)
+#' @examples plot(board_example), plot(board_example2), plot(board_example3), plot(board_example4)
 
 plot.board <- function(x){
   is_valid(x)

@@ -18,5 +18,5 @@ a matrix with random (0, 1) (n^2 size with ((n^2) * p) number of blocked (0), an
 generate_board_mat function; generates a board matrix given 'n' and 'p' input
 }
 \examples{
-generate_board_mat(n = 10, p = 0.25)
+generate_board_mat(), generate_board_mat(n = 5, p = 0.25), generate_board_mat(n = 8, p = 0.75)
 }

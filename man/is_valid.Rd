@@ -16,5 +16,5 @@ error if input is not a matrix, or if the input matrix is not square, or if the 
 is_valid function; checks whether a matrix is a valid board matrix
 }
 \examples{
-is_valid(generate_board_mat())
+is_valid(generate_board_mat()), is_valid(generate_board_mat(n=1))
 }

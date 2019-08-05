@@ -8,7 +8,7 @@
 #' @return a matrix with random (0, 1) (n^2 size with ((n^2) * p) number of blocked (0), and the rest non blocked = (n^2) - blocked(0)
 #' @export
 #'
-#' @examples generate_board_mat(n = 10, p = 0.25)
+#' @examples generate_board_mat(), generate_board_mat(n = 5, p = 0.25), generate_board_mat(n = 8, p = 0.75)
 
 generate_board_mat <- function(n = 5, p = 0.25) {
   assert_that(is.numeric(n)) # n is numeric
@@ -34,7 +34,7 @@ generate_board_mat <- function(n = 5, p = 0.25) {
 #'
 #' @import assertthat
 #'
-#' @examples is_valid(generate_board_mat())
+#' @examples is_valid(generate_board_mat()), is_valid(generate_board_mat(n=1))
 
 is_valid <- function(mat) {
   assert_that(is.matrix(mat))

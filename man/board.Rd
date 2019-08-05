@@ -20,5 +20,5 @@ board(mat = NULL, n = 5, p = 0.25)
 An object with superclass "matrix" and subclass "board"
 }
 \examples{
-board(generate_board_mat())
+board(mat = NULL, n = 5, p = 0.25), board(generate_board_mat())
 }
